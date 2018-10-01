@@ -14,7 +14,6 @@ filter: alpha(opacity=80);
 opacity: 0.8;
 /*Opacity end*/
 color: white;
-position: fixed;
 top: 0;
 left: 0;
 width: 100%;
@@ -68,4 +67,16 @@ position: absolute;
 		top: 67%;
 		left: 23%;
 		font-size: 35px;	
+}
+.slide2
+{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-color: #4bcaff;
+}
+.sous-titre
+{
+	margin-left: 14%;
+	margin-top: 5%;
 }
