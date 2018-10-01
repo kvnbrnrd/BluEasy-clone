@@ -56,13 +56,18 @@ text-decoration: none;
 }
 #slide1
 {
+<<<<<<< HEAD
 position: relative;
+=======
+	position: relative;
+>>>>>>> 0d655fb000f9f396ebafae370363c67c9dd50334
 }
 .hero-text
 {
 color: white;
 background-color:rgba(0, 0, 0, 0.5);
 position: absolute;
+<<<<<<< HEAD
 top: 39%;
 left: 30%;
 font-size: 35px;
@@ -97,3 +102,39 @@ color: white;
 {
 display: flex;
 }
+=======
+    top: 39%;
+	left: 30%;
+	font-size: 35px;
+} 
+.hero-text2
+{
+	color: white;
+	background-color:rgba(0, 0, 0, 0.5);
+	position: absolute;
+		top: 49%;
+		left: 25%;
+		font-size: 35px;	
+}
+#slide2
+{
+	background-color: #4bcaff;
+}
+.container
+{
+	position: relative;
+}
+.sous-titre
+{
+	margin-left: 14%;
+}
+.titre-paragraphe
+{
+	font-size: 12px;
+	color: white;
+}
+.sous-menu
+{
+	display: flex;
+}
+>>>>>>> 0d655fb000f9f396ebafae370363c67c9dd50334
