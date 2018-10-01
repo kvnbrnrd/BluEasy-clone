@@ -96,4 +96,24 @@ position: absolute;
 .sous-menu
 {
 	display: flex;
+	padding: 20px;
+	margin-left: 13%;
+	margin-right: 13%;
+	height: 200px;
+}
+.coffee
+{
+margin: auto
+}
+.instant
+{
+margin: auto
+}
+.serious
+{
+margin: auto
+}
+.coffee
+{
+margin: auto
 }
