@@ -34,21 +34,21 @@ margin: 0;
 margin:0px;
 font-family: 'Roboto', sans-serif;
 }
-header > nav
+header nav
 {
 display: flex;
 justify-content: space-around;
 align-items: center;
 }
-header > nav > ul > li
+header nav li
+{
+list-style-type: none;
+}
+header nav ul li
 {
 float: left;
 position: relative;
 padding: 20px;
-}
-nav li
-{
-list-style-type: none;
 }
 header nav ul li a
 {
@@ -116,33 +116,38 @@ color: white;
 /* Fin Section Services */
 
 /* Début Section Portfolio */
-.container2
+#slide2
 {
 background-color:
 #FFF;
 color: black;
 }
-.container2 nav
+.container2 nav span
+{
+position: relative;
+}
+.sous-titre2
+{
+color:black;
+font-size: 20px;
+margin-left: 13%;
+}
+.container2 nav ul 
 {
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-items: start;
+width: 30%;
+margin-left: 55%;
+
 }
-.container2 nav li
+.container2 nav ul li 
 {
 list-style-type: none;
 }
-.container2 nav ul li
+.container2 nav li a
 {
-float: left;
-position: relative;
-padding: 20px;
 text-decoration: none;
-}
-.sous-titre2 
-{
-color:black;
-font-size: 20px
 }
 
 /* Fin Section Portfolio */
